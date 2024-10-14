@@ -4,105 +4,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Bar</title>
+    <title>Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</title>
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js" defer></script>
 </head>
 
 <body>
+
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="logo">
-            <img src="main logo.png" alt="Logo">
+            <img src="./main logo.png" alt="Company Logo" />
         </div>
 
-        <div class="address">
-            <p>Deliver to Hyderabad 500002</p>
-            <p><strong>Update location</strong></p>
+        <div class="delivery-address">
+            <p>Deliver to Hyderabad 500002<br> <strong>
+                    <center>Update Location
+                </strong></center>
+            </p>
         </div>
 
         <div class="search-bar">
-            <input type="text" placeholder="Search Amazon.in">
+            <input type="text" placeholder="Search for products">
             <button type="submit">Search</button>
         </div>
 
-        <div class="flag-lang">
-            <img src="india flag (1).png" alt="India Flag" class="flag">
-            <select name="language" id="language">
-                <option value="en">En</option>
-                <option value="hi">Hin</option>
+        <div class="language-option">
+            <select>
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="tel">Telugu</option>
+                <option value="tam">Tamil</option>
+                <option value="kan">kannada</option>
             </select>
         </div>
 
-        <div class="nav-options">
-            <button class="signin-btn">Sign In</button>
-            <div class="orders">
-                <p>Returns &amp;<br> Orders</p>
-            </div>
-            <div class="cart">
-                <img src="cart.png" alt="Cart">
-                <p>cart</p>
-            </div>
+        <div class="account">
+            <a href="#">Sign In</a> / <a href="#">Sign Up</a>
+        </div>
+
+        <div class="cart">
+            <a href="#">🛒 Cart (0)</a>
         </div>
     </nav>
-    <div id="dummy"></div>
-    <div id="menu">
-        <ul>
-            <li>All</li>
-            <li>Fresh</li>
-            <li>MX Player</li>
-            <li>Sell</li>
-            <li>Best Sellers</li>
-            <li>Today's Deals</li>
-            <li>Mobiles</li>
-            <li>Electronics</li>
-            <li>Prime</li>
-            <li>Home & Kitchen</li>
-            <li>Customer Service</li>
-            <li>Fashion</li>
-            <li>New Releases</li>
-            <li>Amazon Pay</li>
-            <div></div>
-        </ul>
-    </div>
-    <div class="container">
-        <div class="box">
-            <div id="item">
-                <div id="p1i1" class="page1item">
-                    <h3>Up to 80% off | Electronics & <br>accessories</h3>
-                    <img src="./all products/1.jpg" alt="">
-                </div>
-                <div id="p1i2" class="page1item">
-                    <h3>Starting $299 | Latest styles <br>from top brands</h3>
-                    <div id="sub">
-                        <div id="sub1">
-                            <img src="./all products/2.jpg" alt="">
-                            <img src="./all products/2.1.jpg" alt="">
-                        </div>
-                        <h4>kurtas</h4>
-                        <h4>Tops</h4>
-                        <div id="sub2"><img src="./all products/2.2.jpg" alt="">
-                            <img src="./all products/2.3.jpg" alt="">
-                        </div>
-                        <h4>Dresses</h4>
-                        <h4>Sarees</h4>
-                    </div>
-                </div>
-                <div id="p1i3" class="page1item">
-                    <h3>Starting $6,999 | Upgrade to <br>4K TV's</h3>
-                    <img src="./all products/3.jpg" alt="">
-                </div>
-                <div id="p1i4" class="page1item">
-                    <div id="div1">
-                        <h3>Sign in for your best <br>experience</h3><br>
-                        <button>Sign in securely</button>
-                    </div>
 
-                    <div>
-                        <img src="./mixed offer/4.3.jpg" alt="">
+    <!-- Content -->
+    <div id="dummy"></div>
+    <div class="container">
+        <div id="menu">
+            <ul>
+                <li>All</li>
+                <li>Fresh</li>
+                <li>MX Player</li>
+                <li>Sell</li>
+                <li>Best Sellers</li>
+                <li>Today's Deals</li>
+                <li>Mobiles</li>
+                <li>Electronics</li>
+                <li>Prime</li>
+                <li>Home & Kitchen</li>
+                <li>Customer Service</li>
+                <li>Fashion</li>
+                <li>New Releases</li>
+                <li>Amazon Pay</li>
+                <div></div>
+            </ul>
+        </div>
+        <div class="main-container">
+            <!-- Background Image Container -->
+            <div class="sub-containers">
+
+                <!-- Sub Container 1 -->
+                <div class="sub-container">
+                    <h2>Up to 80% off | Electronics & Accessories</h2>
+                    <img src="./all products/1.jpg" alt="Electronics" />
+                </div>
+
+                <!-- Sub Container 2 -->
+                <div class="sub-container">
+                    <h2>Starting $299 | Latest Styles from Top Brands</h2>
+                    <div class="grid">
+                        <div class="grid-item">
+                            <img src="./all products/2.jpg" alt="Kurtas">
+                            <p>Kurtas</p>
+                        </div>
+                        <div class="grid-item">
+                            <img src="./all products/2.1.jpg" alt="Tops">
+                            <p>Tops</p>
+                        </div>
+                        <div class="grid-item">
+                            <img src="./all products/2.2.jpg" alt="Dresses">
+                            <p>Dresses</p>
+                        </div>
+                        <div class="grid-item">
+                            <img src="./all products/2.3.jpg" alt="Sarees">
+                            <p>Sarees</p>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Sub Container 3 -->
+                <div class="sub-container">
+                    <h2>Starting $6999 | Upgrade to 4K TVs</h2>
+                    <img src="./all products/3.jpg" alt="4K TV" />
+                </div>
+
             </div>
         </div>
+
         <div id="makeup">
             <div class="make1">
                 <h2>Starting $99 + 20% Cashback on first order | Beauty & Makeup</h2>
@@ -112,6 +121,7 @@
                 <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
                 <div class="slider-wrapper">
                     <div class="slides">
+                        <!-- Slider Images -->
                         <img src="./makeup/1.jpg" alt="">
                         <img src="./makeup/2.jpg" alt="">
                         <img src="./makeup/3.jpg" alt="">
@@ -141,40 +151,728 @@
                 <button class="next" onclick="moveSlide(1)">&#10095;</button>
             </div>
         </div>
-        <div id="blockbuster">
-            <div class="make1">
-                <h2>Blockbuster deals</h2>
+        <div id="gadgets">
+            <div class="gad1">
+                <h2>Blockbuster Deals</h2>
+                <a href="#">See all offers</a>
             </div>
-            <div class="bslider">
-                <button class="bprev" onclick="bmoveSlide(-1)">&#10094;</button>
-                <div class="bslider-wrapper">
-                    <div class="bslides">
-                        <img src="./blockbuster deal/1.jpg" alt="">
-                        <img src="./blockbuster deal/2.jpg" alt="">
-                        <img src="./blockbuster deal/3.jpg" alt="">
-                        <img src="./blockbuster deal/4.jpg" alt="">
-                        <img src="./blockbuster deal/5.jpg" alt="">
-                        <img src="./blockbuster deal/6.jpg" alt="">
-                        <img src="./blockbuster deal/7.jpg" alt="">
-                        <img src="./blockbuster deal/8.jpg" alt="">
-                        <img src="./blockbuster deal/9.jpg" alt="">
-                        <img src="./blockbuster deal/10.jpg" alt="">
-                        <img src="./blockbuster deal/11.jpg" alt="">
-                        <img src="./blockbuster deal/12.jpg" alt="">
-                        <img src="./blockbuster deal/13.jpg" alt="">
-                        <img src="./blockbuster deal/14.jpg" alt="">
-                        <img src="./blockbuster deal/15.jpg" alt="">
-                        <img src="./blockbuster deal/16.jpg" alt="">
-                        <img src="./blockbuster deal/17.jpg" alt="">
-                        <img src="./blockbuster deal/18.jpg" alt="">
+            <div class="gad-slider">
+                <button class="gad-prev" onclick="moveGadSlide(-1)">&#10094;</button>
+                <div class="gad-slider-wrapper">
+                    <div class="gad-slides">
+                        <!-- Slider Images with Text -->
+                        <div class="gad-image-container">
+                            <img src="/blockbuster deal/1.jpg" alt="">
+                            <div class="gad-text">50% Off - Great Indian Festival<br>Price: $49 - Product: Smart Speaker
+                            </div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/2.jpg" alt="">
+                            <div class="gad-text">30% Off - New Arrival<br>Price: $99 - Product: Wireless Headphones
+                            </div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/3.jpg" alt="">
+                            <div class="gad-text">25% Off - Limited Edition<br>Price: $149 - Product: 4K Action Camera
+                            </div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/4.jpg" alt="">
+                            <div class="gad-text">15% Off - Seasonal Sale<br>Price: $199 - Product: Smartwatch</div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/5.jpg" alt="">
+                            <div class="gad-text">20% Off - Best Seller<br>Price: $299 - Product: Laptop</div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/6.jpg" alt="">
+                            <div class="gad-text">10% Off - Popular Choice<br>Price: $399 - Product: Tablet</div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/7.jpg" alt="">
+                            <div class="gad-text">35% Off - New Launch<br>Price: $199 - Product: Bluetooth Speaker</div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/8.jpg" alt="">
+                            <div class="gad-text">40% Off - Weekend Special<br>Price: $149 - Product: Fitness Tracker
+                            </div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/9.jpg" alt="">
+                            <div class="gad-text">20% Off - Best Value<br>Price: $89 - Product: Portable Charger</div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/10.jpg" alt="">
+                            <div class="gad-text">50% Off - Clearance Sale<br>Price: $129 - Product: VR Headset</div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/11.jpg" alt="">
+                            <div class="gad-text">30% Off - Exclusive Offer<br>Price: $399 - Product: Gaming Console
+                            </div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/12.jpg" alt="">
+                            <div class="gad-text">25% Off - Limited Stock<br>Price: $249 - Product: Home Theater System
+                            </div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/13.jpg" alt="">
+                            <div class="gad-text">15% Off - Special Discount<br>Price: $179 - Product: E-Reader</div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/14.jpg" alt="">
+                            <div class="gad-text">20% Off - Hot Deal<br>Price: $299 - Product: Smart TV</div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/15.jpg" alt="">
+                            <div class="gad-text">10% Off - Popular Pick<br>Price: $69 - Product: Smart Plug</div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/16.jpg" alt="">
+                            <div class="gad-text">35% Off - Best Buy<br>Price: $149 - Product: Wireless Mouse</div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/17.jpg" alt="">
+                            <div class="gad-text">40% Off - Flash Sale<br>Price: $99 - Product: Bluetooth Keyboard</div>
+                        </div>
+                        <div class="gad-image-container">
+                            <img src="./blockbuster deal/18.jpg" alt="">
+                            <div class="gad-text">20% Off - Buy Now<br>Price: $39 - Product: Smartphone Holder</div>
+                        </div>
 
                     </div>
                 </div>
-                <button class="bnext" onclick="bmoveSlide(1)">&#10095;</button>
+                <button class="gad-next" onclick="moveGadSlide(1)">&#10095;</button>
             </div>
         </div>
-        <div id="rr"></div>
+
+        <div id="offer-products">
+            <div class="offer-container">
+                <h2>Minimum 50% off | Sports, outdoor & more</h2>
+                <div class="grid">
+                    <div class="image-container">
+                        <img src="./offer products/1.1.jpg" alt="Product 1">
+                        <p>Product 1</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./offer products/1.2.jpg" alt="Product 2">
+                        <p>Product 2</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./offer products/1.3.jpg" alt="Product 3">
+                        <p>Product 3</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./offer products/1.4.jpg" alt="Product 4">
+                        <p>Product 4</p>
+                    </div>
+                </div>
+                <a href="#" class="see-all">See All Offers</a>
+            </div>
+
+            <div class="offer-container">
+                <h2>Up to 70% off | Aappliances & more from stores near you</h2>
+                <div class="grid">
+                    <div class="image-container">
+                        <img src="./offer products/2.1.jpg" alt="Product 5">
+                        <p>Product 5</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./offer products/2.2.jpg" alt="Product 6">
+                        <p>Product 6</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./offer products/2.3.jpg" alt="Product 7">
+                        <p>Product 7</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./offer products/2.4.jpg" alt="Product 8">
+                        <p>Product 8</p>
+                    </div>
+                </div>
+                <a href="#" class="see-all">See All Offers</a>
+            </div>
+
+            <div class="offer-container">
+                <h2>Festive essentials from Small Businesses</h2>
+                <div class="grid">
+                    <div class="image-container">
+                        <img src="./offer products/3.1.jpg" alt="Product 9">
+                        <p>Product 9</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./offer products/3.2.jpg" alt="Product 10">
+                        <p>Product 10</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./offer products/3.3.jpg" alt="Product 11">
+                        <p>Product 11</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./offer products/3.4.jpg" alt="Product 12">
+                        <p>Product 12</p>
+                    </div>
+                </div>
+                <a href="#" class="see-all">See All Offers</a>
+            </div>
+
+            <div class="offer-container">
+                <h2>Products from artisans & women-owned brands</h2>
+                <div class="grid">
+                    <div class="image-container">
+                        <img src="./offer products/4.1.jpg" alt="Product 13">
+                        <p>Product 13</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./offer products/4.2.jpg" alt="Product 14">
+                        <p>Product 14</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./offer products/4.3.jpg" alt="Product 15">
+                        <p>Product 15</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./offer products/4.4.jpg" alt="Product 16">
+                        <p>Product 16</p>
+                    </div>
+                </div>
+                <a href="#" class="see-all">See All Offers</a>
+            </div>
+        </div>
+
+        <div id="blockexchange-gadgets">
+            <div class="blockexchange-gad1">
+                <h2>Blockbuster Deals with Excahange</h2>
+                <a href="#">See all offers</a>
+            </div>
+            <div class="blockexchange-gad-slider">
+                <button class="blockexchange-gad-prev" onclick="moveBlockexchangeGadSlide(-1)">&#10094;</button>
+                <div class="blockexchange-gad-slider-wrapper">
+                    <div class="blockexchange-gad-slides">
+                        <!-- Slider Images with Text -->
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/20.jpg">
+                            <div class="blockexchange-gad-text">20% Off - Buy Now<br>Price: $39 - Product: Smartphone
+                                Holder</div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/19.jpg">
+                            <div class="blockexchange-gad-text">20% Off - Buy Now<br>Price: $39 - Product: Smartphone
+                                Holder</div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/1.jpg" alt="">
+                            <div class="blockexchange-gad-text">50% Off - Great Indian Festival<br>Price: $49 - Product:
+                                Smart Speaker
+                            </div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/2.jpg" alt="">
+                            <div class="blockexchange-gad-text">30% Off - New Arrival<br>Price: $99 - Product: Wireless
+                                Headphones
+                            </div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/3.jpg" alt="">
+                            <div class="blockexchange-gad-text">25% Off - Limited Edition<br>Price: $149 - Product: 4K
+                                Action Camera
+                            </div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/4.jpg" alt="">
+                            <div class="blockexchange-gad-text">15% Off - Seasonal Sale<br>Price: $199 - Product:
+                                Smartwatch</div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/5.jpg" alt="">
+                            <div class="blockexchange-gad-text">20% Off - Best Seller<br>Price: $299 - Product: Laptop
+                            </div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/6.jpg" alt="">
+                            <div class="blockexchange-gad-text">10% Off - Popular Choice<br>Price: $399 - Product:
+                                Tablet</div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/7.jpg" alt="">
+                            <div class="blockexchange-gad-text">35% Off - New Launch<br>Price: $199 - Product: Bluetooth
+                                Speaker</div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/8.jpg" alt="">
+                            <div class="blockexchange-gad-text">40% Off - Weekend Special<br>Price: $149 - Product:
+                                Fitness Tracker
+                            </div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/9.jpg" alt="">
+                            <div class="blockexchange-gad-text">20% Off - Best Value<br>Price: $89 - Product: Portable
+                                Charger</div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/10.jpg">
+                            <div class="blockexchange-gad-text">50% Off - Clearance Sale<br>Price: $129 - Product: VR
+                                Headset</div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/11.jpg">
+                            <div class="blockexchange-gad-text">30% Off - Exclusive Offer<br>Price: $399 - Product:
+                                Gaming Console
+                            </div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/12.jpg">
+                            <div class="blockexchange-gad-text">25% Off - Limited Stock<br>Price: $249 - Product: Home
+                                Theater System
+                            </div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/13.jpg">
+                            <div class="blockexchange-gad-text">15% Off - Special Discount<br>Price: $179 - Product:
+                                E-Reader</div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/14.jpg">
+                            <div class="blockexchange-gad-text">20% Off - Hot Deal<br>Price: $299 - Product: Smart TV
+                            </div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/15.jpg">
+                            <div class="blockexchange-gad-text">10% Off - Popular Pick<br>Price: $69 - Product: Smart
+                                Plug</div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/16.jpg">
+                            <div class="blockexchange-gad-text">35% Off - Best Buy<br>Price: $149 - Product: Wireless
+                                Mouse</div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/17.jpg">
+                            <div class="blockexchange-gad-text">40% Off - Flash Sale<br>Price: $99 - Product: Bluetooth
+                                Keyboard</div>
+                        </div>
+                        <div class="blockexchange-gad-image-container">
+                            <img src="./mobile/18.jpg">
+                            <div class="blockexchange-gad-text">20% Off - Buy Now<br>Price: $39 - Product: Smartphone
+                                Holder</div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="blockexchange-gad-next" onclick="moveBlockexchangeGadSlide(1)">&#10095;</button>
+            </div>
+        </div>
+
+        <div class="deal-container">
+            <h2>Up to 40% Off | Deals on Smartphones</h2>
+            <div class="image-wrapper">
+                <img src="./mobile deals/1.jpg" alt="Smartphone 1">
+                <img src="./mobile deals/2.jpg" alt="Smartphone 2">
+                <img src="./mobile deals/3.jpg" alt="Smartphone 3">
+                <img src="./mobile deals/4.jpg" alt="Smartphone 4">
+                <img src="./mobile deals/5.jpg" alt="Smartphone 5">
+                <img src="./mobile deals/6.jpg" alt="Smartphone 6">
+                <img src="./mobile deals/7.jpg" alt="Smartphone 7">
+                <img src="./mobile deals/8.jpg" alt="Smartphone 8">
+                <img src="./mobile deals/9.jpg" alt="Smartphone 9">
+            </div>
+        </div>
+
+        <div id="offer-products">
+            <div class="offer-container">
+                <h2>Up to 75% off | Refurbished Products</h2>
+                <div class="grid">
+                    <div class="image-container">
+                        <img src="./catogories/1.1.jpg" alt="Product 1">
+                        <p>Product 1</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./catogories/1.2.jpg" alt="Product 2">
+                        <p>Product 2</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./catogories/1.3.jpg" alt="Product 3">
+                        <p>Product 3</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./catogories/1.4.jpg" alt="Product 4">
+                        <p>Product 4</p>
+                    </div>
+                </div>
+                <a href="#" class="see-all">See All Offers</a>
+            </div>
+
+            <div class="offer-container">
+                <h2>Trending categories from Emarging brands</h2>
+                <div class="grid">
+                    <div class="image-container">
+                        <img src="./catogories/2.1.jpg" alt="Product 5">
+                        <p>Product 5</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./catogories/2.2.jpg" alt="Product 6">
+                        <p>Product 6</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./catogories/2.3.jpg" alt="Product 7">
+                        <p>Product 7</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./catogories/2.4.jpg" alt="Product 8">
+                        <p>Product 8</p>
+                    </div>
+                </div>
+                <a href="#" class="see-all">See All Offers</a>
+            </div>
+
+            <div class="offer-container">
+                <h2>Strating $299 | Bestselling styles from top brands</h2>
+                <div class="grid">
+                    <div class="image-container">
+                        <img src="./catogories/3.1.jpg" alt="Product 9">
+                        <p>Product 9</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./catogories/3.2.jpg" alt="Product 10">
+                        <p>Product 10</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./catogories/3.3.jpg" alt="Product 11">
+                        <p>Product 11</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./catogories/3.4.jpg" alt="Product 12">
+                        <p>Product 12</p>
+                    </div>
+                </div>
+                <a href="#" class="see-all">See All Offers</a>
+            </div>
+
+            <div class="offer-container">
+                <h2>Great Indian Festival | Brands in focus</h2>
+                <div class="grid">
+                    <div class="image-container">
+                        <img src="./catogories/4.1.jpg" alt="Product 13">
+                        <p>Product 13</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./catogories/4.2.jpg" alt="Product 14">
+                        <p>Product 14</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./catogories/4.3.jpg" alt="Product 15">
+                        <p>Product 15</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="./catogories/4.4.jpg" alt="Product 16">
+                        <p>Product 16</p>
+                    </div>
+                </div>
+                <a href="#" class="see-all">See All Offers</a>
+            </div>
+        </div>
+
+        <div class="deal-container">
+            <h2>Starting $89 | Deals on mobile accessories</h2>
+            <div class="image-wrapper">
+                <img src="./accessories/1.jpg" alt="Smartphone 1">
+                <img src="./accessories/2.jpg" alt="Smartphone 2">
+                <img src="./accessories/3.jpg" alt="Smartphone 3">
+                <img src="./accessories/4.jpg" alt="Smartphone 4">
+                <img src="./accessories/5.jpg" alt="Smartphone 5">
+                <img src="./accessories/6.jpg" alt="Smartphone 6">
+                <img src="./accessories/7.jpg" alt="Smartphone 7">
+                <img src="./accessories/8.jpg" alt="Smartphone 8">
+                <img src="./accessories/9.jpg" alt="Smartphone 9">
+            </div>
+        </div>
+
+        <div id="cloths">
+            <div class="cloths1">
+                <h2>Blockbuster Deals with Exchange</h2>
+                <a href="#">See all offers</a>
+            </div>
+            <div class="cloths-slider">
+                <button class="cloths-prev" onclick="moveClothsSlide(-1)">&#10094;</button>
+                <div class="cloths-slider-wrapper">
+                    <div class="cloths-slides">
+                        <!-- Slider Images with Text -->
+                        <div class="cloths-image-container">
+                            <img src="./dress/1.jpg">
+                            <div class="cloths-text">20% Off - Buy Now<br>Price: $39 - Product: Smartphone Holder</div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/2.jpg">
+                            <div class="cloths-text">20% Off - Buy Now<br>Price: $39 - Product: Smartphone Holder</div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/3.jpg" alt="">
+                            <div class="cloths-text">50% Off - Great Indian Festival<br>Price: $49 - Product: Smart
+                                Speaker</div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/4.jpg" alt="">
+                            <div class="cloths-text">30% Off - New Arrival<br>Price: $99 - Product: Wireless Headphones
+                            </div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/5.jpg" alt="">
+                            <div class="cloths-text">25% Off - Limited Edition<br>Price: $149 - Product: 4K Action
+                                Camera</div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/6.jpg" alt="">
+                            <div class="cloths-text">15% Off - Seasonal Sale<br>Price: $199 - Product: Smartwatch</div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/7.jpg" alt="">
+                            <div class="cloths-text">20% Off - Best Seller<br>Price: $299 - Product: Laptop</div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/8.jpg" alt="">
+                            <div class="cloths-text">10% Off - Popular Choice<br>Price: $399 - Product: Tablet</div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/9.jpg" alt="">
+                            <div class="cloths-text">35% Off - New Launch<br>Price: $199 - Product: Bluetooth Speaker
+                            </div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/10.jpg" alt="">
+                            <div class="cloths-text">40% Off - Weekend Special<br>Price: $149 - Product: Fitness Tracker
+                            </div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/11.jpg" alt="">
+                            <div class="cloths-text">20% Off - Best Value<br>Price: $89 - Product: Portable Charger
+                            </div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/12.jpg">
+                            <div class="cloths-text">50% Off - Clearance Sale<br>Price: $129 - Product: VR Headset</div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/13.jpg">
+                            <div class="cloths-text">30% Off - Exclusive Offer<br>Price: $399 - Product: Gaming Console
+                            </div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/14.jpg">
+                            <div class="cloths-text">25% Off - Limited Stock<br>Price: $249 - Product: Home Theater
+                                System</div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/15.jpg">
+                            <div class="cloths-text">15% Off - Special Discount<br>Price: $179 - Product: E-Reader</div>
+                        </div>
+                        <div class="cloths-image-container">
+                            <img src="./dress/16.jpg">
+                            <div class="cloths-text">20% Off - Hot Deal<br>Price: $299 - Product: Smart TV</div>
+                        </div>
+                    </div>
+                </div>
+                <button class="cloths-next" onclick="moveClothsSlide(1)">&#10095;</button>
+            </div>
+        </div>
+
+        <div id="mixed-offer-main-container">
+            <!-- Sub-container 1 -->
+            <div class="mixed-offer-sub-container1">
+                <h2>Up to 40% off | Deals on mobiles and accessories</h2>
+                <img src="./mixed offer/1.jpg" alt="Mobile Deal">
+                <a href="#">See all offers</a>
+            </div>
+
+            <!-- Sub-container 2 -->
+            <div class="mixed-offer-sub-container2">
+                <h2>Style & Innovation from Small Business</h2>
+                <div class="mixed-offer-grid">
+                    <div class="mixed-offer-item">
+                        <img src="./mixed offer/2.1.jpg" alt="Style 1">
+                        <p>Modern Watch</p>
+                    </div>
+                    <div class="mixed-offer-item">
+                        <img src="./mixed offer/2.2.jpg" alt="Style 2">
+                        <p>Leather Wallet</p>
+                    </div>
+                    <div class="mixed-offer-item">
+                        <img src="./mixed offer/2.3.jpg" alt="Style 3">
+                        <p>Designer Shoes</p>
+                    </div>
+                    <div class="mixed-offer-item">
+                        <img src="./mixed offer/2.4.jpg" alt="Style 4">
+                        <p>Fashion Sunglasses</p>
+                    </div>
+                </div>
+                <a href="#">See all offers</a>
+            </div>
+
+            <!-- Sub-container 3 -->
+            <div class="mixed-offer-sub-container2">
+                <h2>Under $699 | Amazon brands</h2>
+                <div class="mixed-offer-grid">
+                    <div class="mixed-offer-item">
+                        <img src="./mixed offer/3.1.jpg" alt="Style 5">
+                        <p>Handmade Jewelry</p>
+                    </div>
+                    <div class="mixed-offer-item">
+                        <img src="./mixed offer/3.2.jpg" alt="Style 6">
+                        <p>Casual Backpack</p>
+                    </div>
+                    <div class="mixed-offer-item">
+                        <img src="./mixed offer/3.3.jpg" alt="Style 7">
+                        <p>Formal Shoes</p>
+                    </div>
+                    <div class="mixed-offer-item">
+                        <img src="./mixed offer/3.4.jpg" alt="Style 8">
+                        <p>Sportswear</p>
+                    </div>
+                </div>
+                <br>
+                <a href="#">See all offers</a>
+            </div>
+
+            <!-- Sub-container 4 -->
+            <div class="mixed-offer-sub-container2">
+                <h2>Collections from Emerging Business</h2>
+                <div class="mixed-offer-grid">
+                    <div class="mixed-offer-item">
+                        <img src="./mixed offer/4.1.jpg" alt="Style 9">
+                        <p>Eco-friendly Bags</p>
+                    </div>
+                    <div class="mixed-offer-item">
+                        <img src="./mixed offer/4.2.jpg" alt="Style 10">
+                        <p>Minimalist Watch</p>
+                    </div>
+                    <div class="mixed-offer-item">
+                        <img src="./mixed offer/4.3.jpg" alt="Style 11">
+                        <p>Luxury Belt</p>
+                    </div>
+                    <div class="mixed-offer-item">
+                        <img src="./mixed offer/4.4.jpg" alt="Style 12">
+                        <p>Streetwear Jacket</p>
+                    </div>
+                </div>
+                <a href="#">See all offers</a>
+            </div>
+        </div>
+
+        <div class="deal-container">
+            <h2>Shop Deals in top Categories</h2>
+            <div class="image-wrapper">
+                <img src="./top categories/1.jpg" alt="Smartphone 1">
+                <img src="./top categories/2.jpg" alt="Smartphone 2">
+                <img src="./top categories/3.jpg" alt="Smartphone 3">
+                <img src="./top categories/4.jpg" alt="Smartphone 4">
+                <img src="./top categories/5.jpg" alt="Smartphone 5">
+                <img src="./top categories/6.jpg" alt="Smartphone 6">
+                <img src="./top categories/7.jpg" alt="Smartphone 7">
+                <img src="./top categories/8.jpg" alt="Smartphone 8">
+                <img src="./top categories/9.png" alt="Smartphone 9">
+            </div>
+        </div>
+
+        <div class="personalized-container">
+            <div>
+                <p>See Personalized Recommendations</p>
+                <button class="sign-in-btn">Sign In</button>
+                <span>New customer? <a href="#" class="new-customer-link">Start here</a></span>
+            </div>
+        </div>
+
+
+        <footer class="footer-container">
+            <!-- First section with links -->
+            <div class="footer-content">
+                <div id="ft">
+                <div class="footer-section">
+                    <h4>Get to Know Us</h4>
+                    <ul>
+                        <li><a href="#">About Amazon</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press Releases</a></li>
+                        <li><a href="#">Amazon Science</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect with Us</h4>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Make Money with Us</h4>
+                    <ul>
+                        <li><a href="#">Sell on Amazon</a></li>
+                        <li><a href="#">Sell under Amazon Accelerator</a></li>
+                        <li><a href="#">Protect and Build Your Brand</a></li>
+                        <li><a href="#">Amazon Global Selling</a></li>
+                        <li><a href="#">Supply to Amazon</a></li>
+                        <li><a href="#">Become an Affiliate</a></li>
+                        <li><a href="#">Fulfilment by Amazon</a></li>
+                        <li><a href="#">Advertise Your Products</a></li>
+                        <li><a href="#">Amazon Pay on Merchants</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Let Us Help You</h4>
+                    <ul>
+                        <li><a href="#">Your Account</a></li>
+                        <li><a href="#">Returns Centre</a></li>
+                        <li><a href="#">Recalls and Product Safety Alerts</a></li>
+                        <li><a href="#">100% Purchase Protection</a></li>
+                        <li><a href="#">Amazon App Download</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <hr class="footer-divider">
+            <div class="footer-group">
+                <img src="./main1.png">
+                <p><input type="text" placeholder="English" readonly> <input type="text" placeholder="India" readonly></p>
+            </div>
+            <hr class="fooder">
+
+            <!-- International and Services section -->
+            <div class="footer-services">
+
+                <div class="footer-service-group">
+                    <p><a href="#">AbeBooks</a> <br> Books, art & collectibles</p>
+                    <p><a href="#">Amazon Web Services</a> <br> Scalable Cloud Computing Services</p>
+                    <p><a href="#">Audible</a> <br> Download Audio Books</p>
+                    <p><a href="#">IMDb</a> <br> Movies, TV & Celebrities</p>
+                </div>
+                <div class="footer-service-group">
+                    <p><a href="#">Shopbop</a> <br> Designer Fashion Brands</p>
+                    <p><a href="#">Amazon Business</a> <br> Everything For Your Business</p>
+                    <p><a href="#">Prime Now</a> <br> 2-Hour Delivery on Everyday Items</p>
+                    <p><a href="#">Amazon Prime Music</a> <br> 100 million songs, ad-free <br> Over 15 million podcast
+                        episodes</p>
+                </div>
+            </div>
+
+            <!-- Bottom section -->
+            <hr class="fooder">
+            <div class="footer-bottom">
+                <ul class="footer-bottom-links">
+                    <li><a href="#">Conditions of Use & Sale</a></li>
+                    <li><a href="#">Privacy Notice</a></li>
+                    <li><a href="#">Interest-Based Ads</a></li>
+                </ul>
+                <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </footer>
+
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
