@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="main logo.png" alt="Logo">
+        </div>
+
+        <div class="address">
+            <p>Deliver to Hyderabad 500002</p>
+            <p><strong>Update location</strong></p>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search Amazon.in">
+            <button type="submit">Search</button>
+        </div>
+
+        <div class="flag-lang">
+            <img src="india flag (1).png" alt="India Flag" class="flag">
+            <select name="language" id="language">
+                <option value="en">En</option>
+                <option value="hi">Hin</option>
+            </select>
+        </div>
+
+        <div class="nav-options">
+            <button class="signin-btn">Sign In</button>
+            <div class="orders">
+                <p>Returns &amp;<br> Orders</p>
+            </div>
+            <div class="cart">
+                <img src="cart.png" alt="Cart">
+                <p>cart</p>
+            </div>
+        </div>
+    </nav>
+    <div id="dummy"></div>
+    <div id="menu">
+        <ul>
+            <li>All</li>
+            <li>Fresh</li>
+            <li>MX Player</li>
+            <li>Sell</li>
+            <li>Best Sellers</li>
+            <li>Today's Deals</li>
+            <li>Mobiles</li>
+            <li>Electronics</li>
+            <li>Prime</li>
+            <li>Home & Kitchen</li>
+            <li>Customer Service</li>
+            <li>Fashion</li>
+            <li>New Releases</li>
+            <li>Amazon Pay</li>
+            <div></div>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div id="item">
+                <div id="p1i1" class="page1item">
+                    <h3>Up to 80% off | Electronics & <br>accessories</h3>
+                    <img src="./all products/1.jpg" alt="">
+                </div>
+                <div id="p1i2" class="page1item">
+                    <h3>Starting $299 | Latest styles <br>from top brands</h3>
+                    <div id="sub">
+                        <div id="sub1">
+                            <img src="./all products/2.jpg" alt="">
+                            <img src="./all products/2.1.jpg" alt="">
+                        </div>
+                        <h4>kurtas</h4>
+                        <h4>Tops</h4>
+                        <div id="sub2"><img src="./all products/2.2.jpg" alt="">
+                            <img src="./all products/2.3.jpg" alt="">
+                        </div>
+                        <h4>Dresses</h4>
+                        <h4>Sarees</h4>
+                    </div>
+                </div>
+                <div id="p1i3" class="page1item">
+                    <h3>Starting $6,999 | Upgrade to <br>4K TV's</h3>
+                    <img src="./all products/3.jpg" alt="">
+                </div>
+                <div id="p1i4" class="page1item">
+                    <div id="div1">
+                        <h3>Sign in for your best <br>experience</h3><br>
+                        <button>Sign in securely</button>
+                    </div>
+
+                    <div>
+                        <img src="./mixed offer/4.3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="makeup">
+            <div class="make1">
+                <h2>Starting $99 + 20% Cashback on first order | Beauty & Makeup</h2>
+                <a href="#">see all offers</a>
+            </div>
+            <div class="slider">
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <div class="slider-wrapper">
+                    <div class="slides">
+                        <img src="./makeup/1.jpg" alt="">
+                        <img src="./makeup/2.jpg" alt="">
+                        <img src="./makeup/3.jpg" alt="">
+                        <img src="./makeup/4.jpg" alt="">
+                        <img src="./makeup/5.jpg" alt="">
+                        <img src="./makeup/6.jpg" alt="">
+                        <img src="./makeup/7.jpg" alt="">
+                        <img src="./makeup/8.jpg" alt="">
+                        <img src="./makeup/9.jpg" alt="">
+                        <img src="./makeup/10.jpg" alt="">
+                        <img src="./makeup/11.jpg" alt="">
+                        <img src="./makeup/12.jpg" alt="">
+                        <img src="./makeup/13.jpg" alt="">
+                        <img src="./makeup/14.jpg" alt="">
+                        <img src="./makeup/15.jpg" alt="">
+                        <img src="./makeup/16.jpg" alt="">
+                        <img src="./makeup/17.jpg" alt="">
+                        <img src="./makeup/18.jpg" alt="">
+                        <img src="./makeup/19.jpg" alt="">
+                        <img src="./makeup/20.jpg" alt="">
+                        <img src="./makeup/21.jpg" alt="">
+                        <img src="./makeup/22.jpg" alt="">
+                        <img src="./makeup/23.jpg" alt="">
+                        <img src="./makeup/24.jpg" alt="">
+                    </div>
+                </div>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+        </div>
+        <div id="blockbuster">
+            <div class="make1">
+                <h2>Blockbuster deals</h2>
+            </div>
+            <div class="bslider">
+                <button class="bprev" onclick="bmoveSlide(-1)">&#10094;</button>
+                <div class="bslider-wrapper">
+                    <div class="bslides">
+                        <img src="./blockbuster deal/1.jpg" alt="">
+                        <img src="./blockbuster deal/2.jpg" alt="">
+                        <img src="./blockbuster deal/3.jpg" alt="">
+                        <img src="./blockbuster deal/4.jpg" alt="">
+                        <img src="./blockbuster deal/5.jpg" alt="">
+                        <img src="./blockbuster deal/6.jpg" alt="">
+                        <img src="./blockbuster deal/7.jpg" alt="">
+                        <img src="./blockbuster deal/8.jpg" alt="">
+                        <img src="./blockbuster deal/9.jpg" alt="">
+                        <img src="./blockbuster deal/10.jpg" alt="">
+                        <img src="./blockbuster deal/11.jpg" alt="">
+                        <img src="./blockbuster deal/12.jpg" alt="">
+                        <img src="./blockbuster deal/13.jpg" alt="">
+                        <img src="./blockbuster deal/14.jpg" alt="">
+                        <img src="./blockbuster deal/15.jpg" alt="">
+                        <img src="./blockbuster deal/16.jpg" alt="">
+                        <img src="./blockbuster deal/17.jpg" alt="">
+                        <img src="./blockbuster deal/18.jpg" alt="">
+
+                    </div>
+                </div>
+                <button class="bnext" onclick="bmoveSlide(1)">&#10095;</button>
+            </div>
+        </div>
+        <div id="rr"></div>
+    </div>
+</body>
+
+</html>
